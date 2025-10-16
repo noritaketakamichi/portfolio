@@ -15,8 +15,7 @@ export default function Home() {
               AIをこよなく愛する<br />プロダクトマネージャ
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              AIをこよなく愛するプロダクトマネージャ。<br />
-              B2B SaaS、中でもvertical SaaSが得意です。DXの構想策定からなんでもお任せください。<br />
+              ソフトウェアの開発が大好きです。DXの構想策定から実装までなんでもお任せください。<br />
               AIに関するYoutubeでの発信もしています。
             </p>
           </div>
@@ -34,13 +33,89 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section id="about" className="bg-gray-50 py-16">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold text-blue-800 text-center mb-12">
+            About
+          </h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="mb-8">
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                東北大学大学院修了後、ソフトウェアエンジニアとしてキャリアを開始。2年の開発経験を経て教育系SaaSのプロダクトマネージャへ転身し、入社直後にベトナムの開発拠点へ移住。日本・ベトナム双方のチームを横断し、課題発見から要件定義、設計・実装、リリース後の検証までを一気通貫でリード。
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                AIをこよなく愛し、AI情報を発信するYouTubeチャンネル「たかみっちゃんねる」を運営中。
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                強みは現場の課題を構造化し、最小コストで最大効果を出す実装に落とし込むこと。実績としては、要件定義からプロトタイプ、本番導入まで一貫して支援した案件が10社以上あり。
+              </p>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      {/* Strong points Section */}
+      <section id="strong-points" className="bg-white py-16">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold text-blue-800 text-center mb-12">
+            Strong points
+          </h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-xl font-semibold text-blue-700 mb-3">業務効率化・コスト削減の設計</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  現場の無駄や課題を構造化し、最小コストで最大効果を出す改善策を設計。影響範囲・コスト・リスクを可視化して投資判断しやすい選択肢を提示し、定量指標で効果測定まで設計します。
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-semibold text-blue-700 mb-3">売上向上のためのDX推進</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  フルスタックエンジニアとプロダクトマネージャの二刀流経験を活かし、お客様により良いサービスを提供するシステムで競合差別化を実現。品質・速度・保守性のバランスをとり、段階的に価値を届けるリリース計画で小さく作って早く学ぶ開発プロセスを推進。<></>
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-semibold text-blue-700 mb-3">人手不足解決のAI活用</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  n8n、dify等のツールで、問い合わせ対応や資料作成など人がやらなくても良い作業を自動化。貴重な人材をより付加価値の高い営業・企画業務に集中させ、運用・保守を見据えた体制設計（人手介入ポイント／ガバナンス／ログ設計）で安心して導入できます。
+                  <br />
+                  世界中のAIの最新情報を常に追っていますので、なんでもお聞きください。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What I can support Section */}
+      <section id="support" className="bg-gray-50 py-16">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold text-blue-800 text-center mb-12">
+            What I can support
+          </h2>
+          <div className="max-w-4xl mx-auto">
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              何から手をつければ良いか分からずともとにかく前に進めたい方、要件が曖昧で仕様に落ちず関係者の合意形成に苦戦している状況、PoCやプロトタイプから本番運用へ移行したいケース、AI活用を具体的なユースケースに落とし込みたいご相談、海外拠点や外部ベンダーと連携しながら進めたいプロジェクトなど、ぜひお任せください。
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed font-semibold">
+              まずはお気軽にご相談ください。現状を丁寧にヒアリングし、最短距離の打ち手をご提案します。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Section */}
       <section id="featured" className="bg-white py-16">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-blue-800 text-center mb-12">
             Featured
           </h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <div className="bg-blue-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
               <div className="relative aspect-video bg-gray-200">
                 <iframe
@@ -51,16 +126,16 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-blue-800 mb-4">YouTube出演</h3>
-                <p className="text-gray-700 mb-4">
+              <div className="p-4">
+                <h3 className="text-lg font-semibold text-blue-800 mb-3">YouTube出演</h3>
+                <p className="text-gray-700 mb-3 text-sm">
                   以前通っていたコーディングブートキャンプのCode ChrysalisのYoutubeに出演させていただきました
                 </p>
                 <a
                   href="https://www.youtube.com/watch?v=RFLhSy2rxxk"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-colors"
+                  className="inline-block bg-blue-600 text-white px-4 py-2 text-sm rounded hover:bg-blue-700 transition-colors"
                 >
                   動画を見る
                 </a>
@@ -75,16 +150,16 @@ export default function Home() {
                   className="object-cover"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-blue-800 mb-4">Note掲載</h3>
-                <p className="text-gray-700 mb-4">
+              <div className="p-4">
+                <h3 className="text-lg font-semibold text-blue-800 mb-3">Note掲載</h3>
+                <p className="text-gray-700 mb-3 text-sm">
                   ライフストーリーメディアのPopcornに掲載いただきました
                 </p>
                 <a
                   href="https://note.com/hajikeru/n/n0d5f92626aa0"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-colors"
+                  className="inline-block bg-blue-600 text-white px-4 py-2 text-sm rounded hover:bg-blue-700 transition-colors"
                 >
                   記事を読む
                 </a>
