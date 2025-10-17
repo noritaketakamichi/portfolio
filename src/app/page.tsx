@@ -42,13 +42,17 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <div className="mb-8">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                東北大学大学院修了後、ソフトウェアエンジニアとしてキャリアを開始。2年の開発経験を経て教育系SaaSのプロダクトマネージャへ転身し、入社直後にベトナムの開発拠点へ移住。日本・ベトナム双方のチームを横断し、課題発見から要件定義、設計・実装、リリース後の検証までを一気通貫でリード。
+                東北大学大学院修了後、ソフトウェアエンジニアとしてキャリアを開始。2年の開発経験を経て教育系SaaSのプロダクトマネージャへ転身し、入社直後にベトナムの開発拠点へ移住。
+                日本・ベトナム・フィリピン・シンガポールからなる多国籍チームを横断し、課題発見から要件定義、設計・実装、リリース後の検証までを一気通貫でリード。
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 AIをこよなく愛し、AI情報を発信するYouTubeチャンネル「たかみっちゃんねる」を運営中。
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 強みは現場の課題を構造化し、最小コストで最大効果を出す実装に落とし込むこと。実績としては、要件定義からプロトタイプ、本番導入まで一貫して支援した案件が10社以上あり。
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                趣味はムエタイ。年間数試合に出場。
               </p>
             </div>
 
@@ -73,9 +77,9 @@ export default function Home() {
               </div>
               
               <div>
-                <h3 className="text-xl font-semibold text-blue-700 mb-3">売上向上のためのDX推進</h3>
+                <h3 className="text-xl font-semibold text-blue-700 mb-3">DX推進においての一気通貫での支援</h3>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  フルスタックエンジニアとプロダクトマネージャの二刀流経験を活かし、お客様により良いサービスを提供するシステムで競合差別化を実現。品質・速度・保守性のバランスをとり、段階的に価値を届けるリリース計画で小さく作って早く学ぶ開発プロセスを推進。<></>
+                  プロダクトマネージャとフルスタックエンジニアの二刀流経験を活かし、開発を一気通貫でリード。品質・速度・保守性のバランスをとり、段階的に価値を届けるリリース計画で小さく作って早く学ぶ開発プロセスを推進。<></>
                 </p>
               </div>
               
